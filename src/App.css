@@ -1,5 +1,21 @@
+.active {
+  color: red;
+}
+
+.pending {
+  color: green;
+}
+
 .App {
+  display: contents;
   text-align: center;
+  width: 1200px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +51,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.container_facts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.block_facts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.fact {
+  width: 600px;
 }
